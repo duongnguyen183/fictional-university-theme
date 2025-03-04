@@ -1,0 +1,6 @@
+wp-config.php
+wp-content/uploads/
+*.log
+node_modules/
+conf/
+logs/
