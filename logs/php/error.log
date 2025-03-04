@@ -1,0 +1,155 @@
+[07-Feb-2025 04:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_enqueue_sscipt() in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php:4
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(324): university_files('')
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\festival\app\public\wp-includes\script-loader.php(2272): do_action('wp_enqueue_scri...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(324): wp_enqueue_scripts('')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\User\Local Sites\festival\app\public\wp-includes\general-template.php(3064): do_action('wp_head')
+#8 C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\header.php(4): wp_head()
+#9 C:\Users\User\Local Sites\festival\app\public\wp-includes\template.php(810): require_once('C:\\Users\\User\\L...')
+#10 C:\Users\User\Local Sites\festival\app\public\wp-includes\template.php(745): load_template('C:\\Users\\User\\L...', true, Array)
+#11 C:\Users\User\Local Sites\festival\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\index.php(1): get_header()
+#13 C:\Users\User\Local Sites\festival\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#14 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#15 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#16 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php on line 4
+[07-Feb-2025 04:27:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_titles() in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\page.php:27
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\template-loader.php(106): include()
+#1 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#3 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\page.php on line 27
+[07-Feb-2025 06:13:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Feb-2025 06:13:38 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Feb-2025 06:14:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Feb-2025 06:14:06 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Feb-2025 06:14:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[07-Feb-2025 06:14:10 UTC] PHP Fatal error:  Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "university_features" not found or invalid function name in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#3 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(13): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php on line 324
+[10-Feb-2025 03:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resister_nav_menu() in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php:15
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(324): university_features('')
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php on line 15
+[10-Feb-2025 03:03:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 367
+[10-Feb-2025 03:03:14 UTC] PHP Warning:  Trying to access array offset on value of type bool in C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-recovery-mode-email-service.php on line 368
+[10-Feb-2025 03:03:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resister_nav_menu() in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php:15
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(324): university_features('')
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\wp-admin\admin-ajax.php(22): require_once('C:\\Users\\User\\L...')
+#7 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php on line 15
+[10-Feb-2025 03:03:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function resister_nav_menu() in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php:15
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(324): university_features('')
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\User\Local Sites\festival\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\User\Local Sites\festival\app\public\wp-settings.php(682): do_action('after_setup_the...')
+#4 C:\Users\User\Local Sites\festival\app\public\wp-config.php(103): require_once('C:\\Users\\User\\L...')
+#5 C:\Users\User\Local Sites\festival\app\public\wp-load.php(50): require_once('C:\\Users\\User\\L...')
+#6 C:\Users\User\Local Sites\festival\app\public\wp-admin\admin.php(34): require_once('C:\\Users\\User\\L...')
+#7 C:\Users\User\Local Sites\festival\app\public\wp-admin\edit.php(10): require_once('C:\\Users\\User\\L...')
+#8 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\functions.php on line 15
+[18-Feb-2025 03:39:02 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single.php on line 20
+[18-Feb-2025 03:39:02 UTC] PHP Warning:  Undefined variable $theParent in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single.php on line 20
+[27-Feb-2025 03:36:20 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 20 and exactly 1 expected in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php:1302
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php(20): get_post_type_archive_link()
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php on line 1302
+[27-Feb-2025 03:36:35 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 20 and exactly 1 expected in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php:1302
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php(20): get_post_type_archive_link()
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php on line 1302
+[27-Feb-2025 03:36:49 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_post_type_archive_link(), 0 passed in C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php on line 20 and exactly 1 expected in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php:1302
+Stack trace:
+#0 C:\Users\User\Local Sites\festival\app\public\wp-content\themes\fictional-university-theme\single-event.php(20): get_post_type_archive_link()
+#1 C:\Users\User\Local Sites\festival\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\User\\L...')
+#2 C:\Users\User\Local Sites\festival\app\public\wp-blog-header.php(19): require_once('C:\\Users\\User\\L...')
+#3 C:\Users\User\Local Sites\festival\app\public\index.php(17): require('C:\\Users\\User\\L...')
+#4 {main}
+  thrown in C:\Users\User\Local Sites\festival\app\public\wp-includes\link-template.php on line 1302
